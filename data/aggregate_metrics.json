@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "suite_version": "2.0.0-audited",
+    "execution_timestamp": "2026-10-20T09:45:46Z",
+    "python_version": "3.12.0",
+    "os": "Windows 11",
+    "random_seed": 42,
+    "dependency_versions": {
+      "networkx": "3.6.1",
+      "pandas": "2.3.3",
+      "numpy": "2.4.2",
+      "shap": "0.51.0"
+    }
+  },
+  "benchmark_a_skill_matching": {
+    "Exact_Keyword": {
+      "TP": 10,
+      "FP": 0,
+      "TN": 8,
+      "FN": 22,
+      "accuracy_pct": 45.0,
+      "precision_pct": 100.0,
+      "recall_pct": 31.25,
+      "f1_score": 0.4762,
+      "false_rejection_rate_pct": 68.75,
+      "false_acceptance_rate_pct": 0.0,
+      "avg_latency_ms": 0.0023
+    },
+    "Alias_Normalized": {
+      "TP": 20,
+      "FP": 0,
+      "TN": 8,
+      "FN": 12,
+      "accuracy_pct": 70.0,
+      "precision_pct": 100.0,
+      "recall_pct": 62.5,
+      "f1_score": 0.7692,
+      "false_rejection_rate_pct": 37.5,
+      "false_acceptance_rate_pct": 0.0,
+      "avg_latency_ms": 0.0039
+    },
+    "Jaccard_Similarity": {
+      "TP": 12,
+      "FP": 0,
+      "TN": 8,
+      "FN": 20,
+      "accuracy_pct": 50.0,
+      "precision_pct": 100.0,
+      "recall_pct": 37.5,
+      "f1_score": 0.5455,
+      "false_rejection_rate_pct": 62.5,
+      "false_acceptance_rate_pct": 0.0,
+      "avg_latency_ms": 0.0118
+    },
+    "NeuroSymbolic_KG": {
+      "TP": 32,
+      "FP": 0,
+      "TN": 8,
+      "FN": 0,
+      "accuracy_pct": 100.0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "f1_score": 1.0,
+      "false_rejection_rate_pct": 0.0,
+      "false_acceptance_rate_pct": 0.0,
+      "avg_latency_ms": 0.1054
+    }
+  },
+  "benchmark_b_resume_screening": {
+    "Exact_ATS": {
+      "mean_score_pct": 15.0,
+      "std_score_pct": 13.96,
+      "min_score_pct": 0.0,
+      "max_score_pct": 40.0,
+      "median_score_pct": 10.0
+    },
+    "Alias_ATS": {
+      "mean_score_pct": 17.0,
+      "std_score_pct": 17.06,
+      "min_score_pct": 0.0,
+      "max_score_pct": 60.0,
+      "median_score_pct": 15.0
+    },
+    "Graph_ATS": {
+      "mean_score_pct": 47.0,
+      "std_score_pct": 30.18,
+      "min_score_pct": 0.0,
+      "max_score_pct": 90.0,
+      "median_score_pct": 60.0
+    },
+    "incremental_graph_gain": {
+      "mean_gain_pct": 32.0,
+      "max_gain_pct": 60.0,
+      "candidates_with_gain": 15
+    }
+  },
+  "benchmark_c_security_guardrails": {
+    "overall": {
+      "Regex_Only": {
+        "TP": 6,
+        "FP": 0,
+        "TN": 25,
+        "FN": 24,
+        "accuracy_pct": 56.36,
+        "precision_pct": 100.0,
+        "recall_mitigation_pct": 20.0,
+        "f1_score": 0.3333,
+        "false_positive_rate_pct": 0.0
+      },
+      "Model_Safety": {
+        "TP": 17,
+        "FP": 0,
+        "TN": 25,
+        "FN": 13,
+        "accuracy_pct": 76.36,
+        "precision_pct": 100.0,
+        "recall_mitigation_pct": 56.67,
+        "f1_score": 0.7234,
+        "false_positive_rate_pct": 0.0
+      },
+      "Combined_Pipeline": {
+        "TP": 23,
+        "FP": 0,
+        "TN": 25,
+        "FN": 7,
+        "accuracy_pct": 87.27,
+        "precision_pct": 100.0,
+        "recall_mitigation_pct": 76.67,
+        "f1_score": 0.8679,
+        "false_positive_rate_pct": 0.0
+      }
+    },
+    "by_family": {
+      "Direct_Imperative": {
+        "Regex_Only": {
+          "total": 6,
+          "detected": 6,
+          "rate_pct": 100.0
+        },
+        "Model_Safety": {
+          "total": 6,
+          "detected": 0,
+          "rate_pct": 0.0
+        },
+        "Combined_Pipeline": {
+          "total": 6,
+          "detected": 6,
+          "rate_pct": 100.0
+        }
+      },
+      "Paraphrased_Semantic": {
+        "Regex_Only": {
+          "total": 6,
+          "detected": 0,
+          "rate_pct": 0.0
+        },
+        "Model_Safety": {
+          "total": 6,
+          "detected": 4,
+          "rate_pct": 66.7
+        },
+        "Combined_Pipeline": {
+          "total": 6,
+          "detected": 4,
+          "rate_pct": 66.7
+        }
+      },
+      "Obfuscated_Delimited": {
+        "Regex_Only": {
+          "total": 6,
+          "detected": 0,
+          "rate_pct": 0.0
+        },
+        "Model_Safety": {
+          "total": 6,
+          "detected": 5,
+          "rate_pct": 83.3
+        },
+        "Combined_Pipeline": {
+          "total": 6,
+          "detected": 5,
+          "rate_pct": 83.3
+        }
+      },
+      "Roleplay_SocialEng": {
+        "Regex_Only": {
+          "total": 6,
+          "detected": 0,
+          "rate_pct": 0.0
+        },
+        "Model_Safety": {
+          "total": 6,
+          "detected": 3,
+          "rate_pct": 50.0
+        },
+        "Combined_Pipeline": {
+          "total": 6,
+          "detected": 3,
+          "rate_pct": 50.0
+        }
+      },
+      "Tool_Exfiltration": {
+        "Regex_Only": {
+          "total": 6,
+          "detected": 0,
+          "rate_pct": 0.0
+        },
+        "Model_Safety": {
+          "total": 6,
+          "detected": 5,
+          "rate_pct": 83.3
+        },
+        "Combined_Pipeline": {
+          "total": 6,
+          "detected": 5,
+          "rate_pct": 83.3
+        }
+      },
+      "Benign_Control": {
+        "Regex_Only": {
+          "total": 25,
+          "detected": 0,
+          "rate_pct": 0.0
+        },
+        "Model_Safety": {
+          "total": 25,
+          "detected": 0,
+          "rate_pct": 0.0
+        },
+        "Combined_Pipeline": {
+          "total": 25,
+          "detected": 0,
+          "rate_pct": 0.0
+        }
+      }
+    }
+  },
+  "benchmark_d_shap_additivity": {
+    "model_architecture": "RandomForestClassifier(n_estimators=50, random_state=42)",
+    "training_data_source": "SYNTHETIC_DEMONSTRATION (N=100 uniform random vectors)",
+    "samples_tested": 10,
+    "all_exact_additivity": true,
+    "max_absolute_error": 0.0,
+    "mean_absolute_error": 0.0,
+    "scientific_interpretation": "Verified exact local mathematical additivity (f(x) - E[f(x)] = sum(phi_i)) for the TreeExplainer algorithm. However, this is an axiomatic demonstration model trained on synthetic data; it does NOT constitute proof of absence of population bias, legal compliance, or real-world predictive validity."
+  },
+  "benchmark_e_fairness_perturbation": {
+    "audited_scoring_path": "Deterministic Neuro-Symbolic Knowledge Graph & Skill Parser",
+    "total_counterfactual_mutations": 45,
+    "invariant_evaluations": 45,
+    "invariance_rate_pct": 100.0,
+    "mean_score_disparity": 0.0,
+    "methodological_boundary": "Audited the deterministic skill matching path which operates solely on technology tokens. While this specific module exhibits 100.0% counterfactual invariance, evaluating population-level fairness across LLM-generated narrative feedback requires a prospectively collected, ethically governed candidate dataset with protected demographic labels, which remains an uncompleted study."
+  },
+  "benchmark_f_perception_and_reliability": {
+    "scraper_perception_offline_handling": {
+      "honest_error_returned": true,
+      "deceptive_fallback_eliminated": true
+    },
+    "live_github_api_verification": {
+      "tests_run": 3,
+      "verified_cases": 3,
+      "details": [
+        {
+          "username": "torvalds",
+          "user_type": "Real_Public_User",
+          "expect_found": true,
+          "raw_output": "GitHub Portfolio Analysis for 'torvalds':\n- Repo: linux | Language: C | Stars: 252720\n  Desc: Linux kernel source tree\n- Repo: GuitarPedal | Language: C | Stars: 2461\n  Desc: Linus learns analog circu...",
+          "is_verified": true,
+          "latency_ms": 907.03
+        },
+        {
+          "username": "tiangolo",
+          "user_type": "Real_Public_User",
+          "expect_found": true,
+          "raw_output": "GitHub Portfolio Analysis for 'tiangolo':\n- Repo: library-skills | Language: Python | Stars: 818\n  Desc: Library Agent Skills\n- Repo: depende | Language: Python | Stars: 21\n  Desc: Dependency declarat...",
+          "is_verified": true,
+          "latency_ms": 874.09
+        },
+        {
+          "username": "smart_hire_test_invalid_user_404_abc",
+          "user_type": "Nonexistent_User",
+          "expect_found": false,
+          "raw_output": "GitHub profile 'smart_hire_test_invalid_user_404_abc' not found. Candidate may not have public repositories....",
+          "is_verified": true,
+          "latency_ms": 841.93
+        }
+      ]
+    },
+    "multimodal_video_audit_status": {
+      "status": "UNCOMPLETED_PROTOCOL",
+      "reason": "No labeled video dataset (N=60) is present in the workspace. The video processor module (tools/video_processor.py) is a zero-shot prompt-based heuristic without calibrated labels. Per research integrity guidelines, accuracy claims (e.g. 88.6% or 94.1%) must be documented as an uncompleted experimental protocol rather than verified empirical metrics."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: smarthire_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Mount data and db directories so data persists between restarts
+      - ./data:/app/data
+      - ./db:/app/db
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: smarthire_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    environment:
+      # Allow frontend to know where backend is, though typically Nginx might need a proxy setup
+      - VITE_API_URL=http://localhost:8000

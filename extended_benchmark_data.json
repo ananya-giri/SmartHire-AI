@@ -1,0 +1,161 @@
+{
+  "timestamp": "2026-10-18 11:25:14",
+  "experiment_6_fairness": {
+    "total_counterfactual_mutations": 60,
+    "mean_score_variance_pct": 0.0,
+    "selection_rates": {
+      "Male": 80.0,
+      "Female": 80.0,
+      "Diverse": 80.0,
+      "Elite_Tier1": 80.0,
+      "State_Tier2": 80.0,
+      "Bootcamp_Tier3": 80.0
+    },
+    "disparate_impact_ratios": {
+      "female_to_male": 1.0,
+      "diverse_to_male": 1.0,
+      "bootcamp_to_elite": 1.0
+    },
+    "eeoc_compliant": true,
+    "audit_latency_ms": 986.48
+  },
+  "experiment_7_github": {
+    "profiles_audited": 4,
+    "mean_latency_ms": 983.86,
+    "audit_records": [
+      {
+        "username": "octocat",
+        "claimed_expertise": "Full-Stack Development, React, MongoDB",
+        "latency_ms": 859.7,
+        "languages_detected": [
+          "HTML"
+        ],
+        "verified_claims": [],
+        "unverified_blind_spots": [
+          "full-stack development",
+          "react",
+          "mongodb"
+        ],
+        "adaptive_interview_questions": [
+          "Explain how you would implement and test Full-Stack Development in a high-concurrency production microservice.",
+          "Describe an architectural anti-pattern you encountered when working with Full-Stack Development, and how you resolved it.",
+          "How do you monitor and benchmark performance when scaling Full-Stack Development under heavy load?"
+        ],
+        "raw_snippet": "GitHub Portfolio Analysis for 'octocat': - Repo: Spoon-Knife | Language: HTML | Stars: 14121   Desc: This repo is for demonstration purposes only. - Repo: Hello-World | Language: None | Stars: 3851   Desc: My first repository on GitHub! - Repo: octoc"
+      },
+      {
+        "username": "tiangolo",
+        "claimed_expertise": "Python, FastAPI, Docker, SQL, MongoDB",
+        "latency_ms": 900.97,
+        "languages_detected": [
+          "Python",
+          "Shell"
+        ],
+        "verified_claims": [
+          "python"
+        ],
+        "unverified_blind_spots": [
+          "fastapi",
+          "docker",
+          "sql",
+          "mongodb"
+        ],
+        "adaptive_interview_questions": [
+          "Explain how you would implement and test Fastapi in a high-concurrency production microservice.",
+          "Describe an architectural anti-pattern you encountered when working with Fastapi, and how you resolved it.",
+          "How do you monitor and benchmark performance when scaling Fastapi under heavy load?"
+        ],
+        "raw_snippet": "GitHub Portfolio Analysis for 'tiangolo': - Repo: uvicorn-gunicorn-fastapi-docker | Language: Python | Stars: 2917   Desc: Docker image with Uvicorn managed by Gunicorn for high-performance FastAPI web applications in Python with performance auto-tun"
+      },
+      {
+        "username": "gaearon",
+        "claimed_expertise": "React, Redux, JavaScript, Node.js, Kubernetes",
+        "latency_ms": 974.92,
+        "languages_detected": [
+          "JavaScript",
+          "TypeScript"
+        ],
+        "verified_claims": [
+          "javascript"
+        ],
+        "unverified_blind_spots": [
+          "react",
+          "redux",
+          "node.js",
+          "kubernetes"
+        ],
+        "adaptive_interview_questions": [
+          "Explain how you would implement and test React in a high-concurrency production microservice.",
+          "Describe an architectural anti-pattern you encountered when working with React, and how you resolved it.",
+          "How do you monitor and benchmark performance when scaling React under heavy load?"
+        ],
+        "raw_snippet": "GitHub Portfolio Analysis for 'gaearon': - Repo: overreacted.io | Language: TypeScript | Stars: 7274   Desc: Personal blog by Dan Abramov. - Repo: react-hot-boilerplate | Language: JavaScript | Stars: 3881   Desc: Minimal live-editing example for Rea"
+      },
+      {
+        "username": "ananya-giri",
+        "claimed_expertise": "Python, Multi-Agent Systems, React, FastAPI",
+        "latency_ms": 1199.84,
+        "languages_detected": [
+          "Python",
+          "JavaScript"
+        ],
+        "verified_claims": [
+          "python"
+        ],
+        "unverified_blind_spots": [
+          "multi-agent systems",
+          "react",
+          "fastapi"
+        ],
+        "adaptive_interview_questions": [
+          "Explain how you would implement and test Multi-Agent Systems in a high-concurrency production microservice.",
+          "Describe an architectural anti-pattern you encountered when working with Multi-Agent Systems, and how you resolved it.",
+          "How do you monitor and benchmark performance when scaling Multi-Agent Systems under heavy load?"
+        ],
+        "raw_snippet": "GitHub Portfolio Analysis for 'ananya-giri': - Repo: Finance-project | Language: None | Stars: 0 - Repo: CODSOFT_TASKN0_2 | Language: JavaScript | Stars: 0   Desc: A project management platform built with React , Node and PostgreSQL - Repo: CODSOFT_T"
+      }
+    ]
+  },
+  "experiment_8_fault_tolerance": {
+    "trials_executed": 5,
+    "survival_rate_pct": 100.0,
+    "mean_failover_latency_ms": 165.96,
+    "trial_records": [
+      {
+        "test_name": "HTTP 429 Rate Limit (Cloudflare / Web Scraper)",
+        "simulated_failure": "429",
+        "recovered": true,
+        "failover_latency_ms": 1.05,
+        "fallback_response_snippet": "Simulated Scrape Data: Candidate has 5 years of domain experience, proficient in Python, React, and system architecture."
+      },
+      {
+        "test_name": "HTTP 503 Service Unavailable (Network Outage)",
+        "simulated_failure": "503",
+        "recovered": true,
+        "failover_latency_ms": 0.19,
+        "fallback_response_snippet": "Simulated Scrape Data: Candidate has 5 years of domain experience, proficient in Python, React, and system architecture."
+      },
+      {
+        "test_name": "Connection Timeout (DNS / Socket Drop)",
+        "simulated_failure": "timeout",
+        "recovered": true,
+        "failover_latency_ms": 0.13,
+        "fallback_response_snippet": "Simulated Scrape Data: Candidate has 5 years of domain experience, proficient in Python, React, and system architecture."
+      },
+      {
+        "test_name": "Missing SMTP Credentials (Offline Mailer)",
+        "simulated_failure": "smtp_offline",
+        "recovered": true,
+        "failover_latency_ms": 1.87,
+        "fallback_response_snippet": "Simulated success! Email 'sent'. Tell user to set SMTP_EMAIL and SMTP_PASSWORD in .env for actual sending."
+      },
+      {
+        "test_name": "Malformed / Non-Existent GitHub User",
+        "simulated_failure": "github_404",
+        "recovered": true,
+        "failover_latency_ms": 826.58,
+        "fallback_response_snippet": "GitHub profile 'non_existent_developer_xyz_999999' not found. Candidate may not have public repositories."
+      }
+    ]
+  }
+}

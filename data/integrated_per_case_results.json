@@ -1,0 +1,702 @@
+[
+  {
+    "config": "A_exact",
+    "resume_id": 0,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 30.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 1,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 2,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 30.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 3,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 20.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 4,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 10.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 5,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 10.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 6,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 10.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 7,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 40.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 8,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 0.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 9,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 0.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 10,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 30.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 11,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 40.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 12,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 70.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 13,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 20.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 14,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 50.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 15,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 16,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 17,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 18,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "A_exact",
+    "resume_id": 19,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 0,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 30.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 1,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 2,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 30.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 3,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 20.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 4,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 10.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 5,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 10.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 6,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 10.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 7,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 40.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 8,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 0.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 9,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 0.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 10,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 30.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 11,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 40.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 12,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 70.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 13,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 20.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 14,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 50.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 15,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 16,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 17,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 18,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "B_alias",
+    "resume_id": 19,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 0,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 1,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 2,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 3,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 4,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 5,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 6,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 7,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 8,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 0.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 9,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 10,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 11,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 12,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 100.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 13,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 14,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 15,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 16,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 20.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 17,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 18,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "D_kg",
+    "resume_id": 19,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 0,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 1,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 2,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 3,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 4,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 5,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 6,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 7,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 8,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 0.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 9,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 10,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 11,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 12,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 100.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 13,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 14,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 15,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 16,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 20.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 17,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 18,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "E_kg_shap",
+    "resume_id": 19,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 0,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 1,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 2,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 3,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 4,
+    "category": "React Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 5,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 6,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 7,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 8,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 0.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 9,
+    "category": "Python Developer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 10,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 11,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 60.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 12,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 100.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 13,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 90.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 14,
+    "category": "DevOps Engineer",
+    "relevant_proxy": true,
+    "score_pct": 80.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 15,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 16,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 20.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 17,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 18,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  },
+  {
+    "config": "F_full",
+    "resume_id": 19,
+    "category": "Accountant",
+    "relevant_proxy": false,
+    "score_pct": 0.0
+  }
+]

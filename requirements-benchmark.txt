@@ -1,0 +1,10 @@
+# Pinned stack for reproducing the deterministic benchmarks
+# (run_integrated_benchmarks.py, run_shap_pipeline_benchmarks.py,
+#  test_active_guardrail_and_pipeline.py) without the full CrewAI stack.
+# Versions verified in the v3 fix run (Python 3.12).
+networkx==3.7
+numpy==2.5.4
+scikit-learn==1.9.1
+scipy==1.18.1
+# Optional, only for Llama-Prompt-Guard-2 inference (Layer 4):
+# torch, transformers  (plus HF_TOKEN with the Llama licence accepted)

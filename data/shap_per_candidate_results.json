@@ -1,0 +1,942 @@
+[
+  {
+    "resume_id": 0,
+    "filename": "0.pdf",
+    "category": "React Developer",
+    "actual_score_pct": 60.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 60.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 19,
+    "top_contributing_skills": [
+      [
+        "REST",
+        20.0
+      ],
+      [
+        "CI/CD",
+        6.6667
+      ],
+      [
+        "DevOps",
+        6.6667
+      ],
+      [
+        "Git",
+        6.6667
+      ],
+      [
+        "JavaScript",
+        5.0
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 60.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 28.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 280000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        20.0,
+        20.0,
+        20.0,
+        40.0,
+        40.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 642.791
+  },
+  {
+    "resume_id": 1,
+    "filename": "1.pdf",
+    "category": "React Developer",
+    "actual_score_pct": 90.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 90.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 25,
+    "top_contributing_skills": [
+      [
+        "Database",
+        10.0
+      ],
+      [
+        "Backend",
+        9.5
+      ],
+      [
+        "Python",
+        9.5
+      ],
+      [
+        "CI/CD",
+        6.6667
+      ],
+      [
+        "Git",
+        6.6667
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 90.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 6.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 60000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        0.0,
+        0.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 531.474
+  },
+  {
+    "resume_id": 2,
+    "filename": "10.pdf",
+    "category": "React Developer",
+    "actual_score_pct": 90.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 90.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 18,
+    "top_contributing_skills": [
+      [
+        "Database",
+        10.0
+      ],
+      [
+        "Git",
+        10.0
+      ],
+      [
+        "Linux",
+        10.0
+      ],
+      [
+        "Backend",
+        8.3333
+      ],
+      [
+        "Python",
+        8.3333
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 90.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 12.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 120000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        0.0,
+        0.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 494.248
+  },
+  {
+    "resume_id": 3,
+    "filename": "100.pdf",
+    "category": "React Developer",
+    "actual_score_pct": 80.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 80.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 19,
+    "top_contributing_skills": [
+      [
+        "SQL",
+        10.0
+      ],
+      [
+        "Python",
+        9.1667
+      ],
+      [
+        "Database",
+        8.3333
+      ],
+      [
+        "Git",
+        8.3333
+      ],
+      [
+        "Linux",
+        8.3333
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 80.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 8.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 80000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        0.0,
+        0.0,
+        10.0,
+        10.0,
+        20.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 616.064
+  },
+  {
+    "resume_id": 4,
+    "filename": "101.pdf",
+    "category": "React Developer",
+    "actual_score_pct": 80.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 80.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 6,
+    "top_contributing_skills": [
+      [
+        "Python",
+        25.0
+      ],
+      [
+        "SQL",
+        25.0
+      ],
+      [
+        "JavaScript",
+        20.0
+      ],
+      [
+        "Cloud",
+        10.0
+      ],
+      [
+        "Agile",
+        0.0
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 80.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 60.0,
+      "aopc_sufficiency": 18.0,
+      "faithfulness_ratio": 3.33,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        20.0,
+        50.0,
+        70.0,
+        80.0,
+        80.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        10.0,
+        30.0,
+        50.0
+      ]
+    },
+    "latency_ms": 502.482
+  },
+  {
+    "resume_id": 5,
+    "filename": "0.pdf",
+    "category": "Python Developer",
+    "actual_score_pct": 60.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 60.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 12,
+    "top_contributing_skills": [
+      [
+        "Cloud",
+        10.0
+      ],
+      [
+        "Backend",
+        9.1667
+      ],
+      [
+        "Python",
+        9.1667
+      ],
+      [
+        "Flask",
+        5.8333
+      ],
+      [
+        "Go",
+        5.8333
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 60.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 18.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 180000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        10.0,
+        10.0,
+        10.0,
+        20.0,
+        40.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 547.217
+  },
+  {
+    "resume_id": 6,
+    "filename": "1.pdf",
+    "category": "Python Developer",
+    "actual_score_pct": 80.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 80.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 6,
+    "top_contributing_skills": [
+      [
+        "Python",
+        25.0
+      ],
+      [
+        "SQL",
+        25.0
+      ],
+      [
+        "JavaScript",
+        20.0
+      ],
+      [
+        "Cloud",
+        10.0
+      ],
+      [
+        "Agile",
+        0.0
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 80.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 60.0,
+      "aopc_sufficiency": 18.0,
+      "faithfulness_ratio": 3.33,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        20.0,
+        50.0,
+        70.0,
+        80.0,
+        80.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        10.0,
+        30.0,
+        50.0
+      ]
+    },
+    "latency_ms": 519.773
+  },
+  {
+    "resume_id": 7,
+    "filename": "10.pdf",
+    "category": "Python Developer",
+    "actual_score_pct": 80.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 80.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 20,
+    "top_contributing_skills": [
+      [
+        "Python",
+        10.3333
+      ],
+      [
+        "SQL",
+        9.5
+      ],
+      [
+        "Database",
+        7.5
+      ],
+      [
+        "Django",
+        7.0
+      ],
+      [
+        "Docker",
+        5.8333
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 80.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 10.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 100000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        0.0,
+        0.0,
+        10.0,
+        20.0,
+        20.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 528.123
+  },
+  {
+    "resume_id": 8,
+    "filename": "100.pdf",
+    "category": "Python Developer",
+    "actual_score_pct": 0.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 0.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 1,
+    "top_contributing_skills": [
+      [
+        "Agile",
+        0.0
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 0.0,
+      "k_evaluated": 1,
+      "aopc_comprehensiveness": 0.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 0.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        0.0
+      ],
+      "bottom_feature_decay": [
+        0.0
+      ]
+    },
+    "latency_ms": 496.681
+  },
+  {
+    "resume_id": 9,
+    "filename": "101.pdf",
+    "category": "Python Developer",
+    "actual_score_pct": 90.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 90.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 16,
+    "top_contributing_skills": [
+      [
+        "Git",
+        20.0
+      ],
+      [
+        "JavaScript",
+        20.0
+      ],
+      [
+        "Backend",
+        15.0
+      ],
+      [
+        "SQL",
+        10.8333
+      ],
+      [
+        "Database",
+        8.3333
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 90.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 44.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 440000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        20.0,
+        40.0,
+        50.0,
+        50.0,
+        60.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 538.197
+  },
+  {
+    "resume_id": 10,
+    "filename": "0.pdf",
+    "category": "DevOps Engineer",
+    "actual_score_pct": 80.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 80.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 11,
+    "top_contributing_skills": [
+      [
+        "Backend",
+        15.0
+      ],
+      [
+        "DevOps",
+        15.0
+      ],
+      [
+        "MongoDB",
+        10.0
+      ],
+      [
+        "MySQL",
+        10.0
+      ],
+      [
+        "Java",
+        5.0
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 80.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 28.0,
+      "aopc_sufficiency": 6.0,
+      "faithfulness_ratio": 4.67,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        40.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        10.0,
+        10.0,
+        10.0
+      ]
+    },
+    "latency_ms": 515.48
+  },
+  {
+    "resume_id": 11,
+    "filename": "1.pdf",
+    "category": "DevOps Engineer",
+    "actual_score_pct": 60.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 60.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 15,
+    "top_contributing_skills": [
+      [
+        "Python",
+        30.0
+      ],
+      [
+        "CI/CD",
+        2.6786
+      ],
+      [
+        "DevOps",
+        2.6786
+      ],
+      [
+        "Docker",
+        2.6786
+      ],
+      [
+        "Git",
+        2.6786
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 60.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 30.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 300000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 586.948
+  },
+  {
+    "resume_id": 12,
+    "filename": "10.pdf",
+    "category": "DevOps Engineer",
+    "actual_score_pct": 100.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 100.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 25,
+    "top_contributing_skills": [
+      [
+        "JavaScript",
+        20.0
+      ],
+      [
+        "Python",
+        14.1667
+      ],
+      [
+        "SQL",
+        8.3333
+      ],
+      [
+        "Database",
+        6.6667
+      ],
+      [
+        "Java",
+        4.1667
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 100.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 28.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 280000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        20.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 562.326
+  },
+  {
+    "resume_id": 13,
+    "filename": "100.pdf",
+    "category": "DevOps Engineer",
+    "actual_score_pct": 90.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 90.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 16,
+    "top_contributing_skills": [
+      [
+        "Next.js",
+        20.0
+      ],
+      [
+        "Kafka",
+        15.0
+      ],
+      [
+        "SQL",
+        10.8333
+      ],
+      [
+        "Database",
+        5.8333
+      ],
+      [
+        "DevOps",
+        5.8333
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 90.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 34.0,
+      "aopc_sufficiency": 2.0,
+      "faithfulness_ratio": 17.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        20.0,
+        30.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0
+      ]
+    },
+    "latency_ms": 480.174
+  },
+  {
+    "resume_id": 14,
+    "filename": "101.pdf",
+    "category": "DevOps Engineer",
+    "actual_score_pct": 80.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 80.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 27,
+    "top_contributing_skills": [
+      [
+        "Python",
+        13.9286
+      ],
+      [
+        "SQL",
+        8.9286
+      ],
+      [
+        "Database",
+        7.5
+      ],
+      [
+        "Go",
+        3.9286
+      ],
+      [
+        "Java",
+        3.9286
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 80.0,
+      "k_evaluated": 5,
+      "aopc_comprehensiveness": 16.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 160000.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        10.0,
+        10.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "bottom_feature_decay": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "latency_ms": 526.116
+  },
+  {
+    "resume_id": 15,
+    "filename": "0.pdf",
+    "category": "Accountant",
+    "actual_score_pct": 0.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 0.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 0,
+    "top_contributing_skills": [],
+    "faithfulness": {
+      "baseline_score": 0.0,
+      "k_evaluated": 0,
+      "aopc_comprehensiveness": 0.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 1.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [],
+      "bottom_feature_decay": []
+    },
+    "latency_ms": 498.563
+  },
+  {
+    "resume_id": 16,
+    "filename": "0287439839da10d2.pdf",
+    "category": "Accountant",
+    "actual_score_pct": 20.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 20.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 1,
+    "top_contributing_skills": [
+      [
+        "Next.js",
+        20.0
+      ]
+    ],
+    "faithfulness": {
+      "baseline_score": 20.0,
+      "k_evaluated": 1,
+      "aopc_comprehensiveness": 20.0,
+      "aopc_sufficiency": 20.0,
+      "faithfulness_ratio": 1.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [
+        20.0
+      ],
+      "bottom_feature_decay": [
+        20.0
+      ]
+    },
+    "latency_ms": 441.053
+  },
+  {
+    "resume_id": 17,
+    "filename": "028cd00be9bb156d.pdf",
+    "category": "Accountant",
+    "actual_score_pct": 0.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 0.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 0,
+    "top_contributing_skills": [],
+    "faithfulness": {
+      "baseline_score": 0.0,
+      "k_evaluated": 0,
+      "aopc_comprehensiveness": 0.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 1.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [],
+      "bottom_feature_decay": []
+    },
+    "latency_ms": 421.015
+  },
+  {
+    "resume_id": 18,
+    "filename": "0452d98376727179.pdf",
+    "category": "Accountant",
+    "actual_score_pct": 0.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 0.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 0,
+    "top_contributing_skills": [],
+    "faithfulness": {
+      "baseline_score": 0.0,
+      "k_evaluated": 0,
+      "aopc_comprehensiveness": 0.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 1.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [],
+      "bottom_feature_decay": []
+    },
+    "latency_ms": 556.034
+  },
+  {
+    "resume_id": 19,
+    "filename": "0857decaec1c1f99.pdf",
+    "category": "Accountant",
+    "actual_score_pct": 0.0,
+    "baseline_expected_pct": 57.0,
+    "reconstructed_score_pct": 0.0,
+    "req_additivity_error": 0.0,
+    "skill_additivity_error": 0.0,
+    "extracted_skills_count": 0,
+    "top_contributing_skills": [],
+    "faithfulness": {
+      "baseline_score": 0.0,
+      "k_evaluated": 0,
+      "aopc_comprehensiveness": 0.0,
+      "aopc_sufficiency": 0.0,
+      "faithfulness_ratio": 1.0,
+      "faithfulness_passed": true,
+      "top_feature_decay": [],
+      "bottom_feature_decay": []
+    },
+    "latency_ms": 430.161
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "run_timestamp": "2026-10-21T16:01:15Z",
+  "corpus_file": "data/extracted_kaggle_resumes.json",
+  "corpus_size": 20,
+  "requirements": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "AWS",
+    "CI/CD"
+  ],
+  "matching_function": "calculate_pipeline_match_score (shap_scoring_explainer.py)",
+  "per_requirement_baselines": {
+    "React": 0.45,
+    "TypeScript": 0.45,
+    "Node.js": 0.7,
+    "Python": 0.7,
+    "FastAPI": 0.6,
+    "PostgreSQL": 0.55,
+    "MongoDB": 0.55,
+    "Docker": 0.6,
+    "AWS": 0.5,
+    "CI/CD": 0.6
+  },
+  "expected_score_pct": 57.0,
+  "hardcoded_defaults_comparison": {
+    "React": {
+      "live_computed": 0.45,
+      "hardcoded_default": 0.45,
+      "match": true
+    },
+    "TypeScript": {
+      "live_computed": 0.45,
+      "hardcoded_default": 0.45,
+      "match": true
+    },
+    "Node.js": {
+      "live_computed": 0.7,
+      "hardcoded_default": 0.7,
+      "match": true
+    },
+    "Python": {
+      "live_computed": 0.7,
+      "hardcoded_default": 0.7,
+      "match": true
+    },
+    "FastAPI": {
+      "live_computed": 0.6,
+      "hardcoded_default": 0.6,
+      "match": true
+    },
+    "PostgreSQL": {
+      "live_computed": 0.55,
+      "hardcoded_default": 0.55,
+      "match": true
+    },
+    "MongoDB": {
+      "live_computed": 0.55,
+      "hardcoded_default": 0.55,
+      "match": true
+    },
+    "Docker": {
+      "live_computed": 0.6,
+      "hardcoded_default": 0.6,
+      "match": true
+    },
+    "AWS": {
+      "live_computed": 0.5,
+      "hardcoded_default": 0.5,
+      "match": true
+    },
+    "CI/CD": {
+      "live_computed": 0.6,
+      "hardcoded_default": 0.6,
+      "match": true
+    }
+  },
+  "source": "data/extracted_kaggle_resumes.json",
+  "provenance_note": "Observed empirical pass rates over authentic Kaggle resume cohort"
+}

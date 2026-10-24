@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "runner": "run_integrated_benchmarks.py",
+    "seed": 42,
+    "decision_threshold_pct": 50.0,
+    "requirements": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "AWS",
+      "CI/CD"
+    ],
+    "n_resumes": 20,
+    "proxy_label": "category != 'Accountant' (no human hiring ground truth in corpus)",
+    "guardrail_under_test": "security_guardrails.AIHiringGuardrails.scan_document (production, used by api.py)",
+    "elapsed_sec": 3.69
+  },
+  "resume_screening_by_config": {
+    "A_exact": {
+      "TP": 3,
+      "FP": 0,
+      "TN": 5,
+      "FN": 12,
+      "accuracy_pct": 40.0,
+      "precision_pct": 100.0,
+      "recall_pct": 20.0,
+      "f1_score": 0.3333,
+      "false_rejection_rate_pct": 80.0,
+      "auc": 0.9333,
+      "mean_latency_ms": 0.0176
+    },
+    "B_alias": {
+      "TP": 3,
+      "FP": 0,
+      "TN": 5,
+      "FN": 12,
+      "accuracy_pct": 40.0,
+      "precision_pct": 100.0,
+      "recall_pct": 20.0,
+      "f1_score": 0.3333,
+      "false_rejection_rate_pct": 80.0,
+      "auc": 0.9333,
+      "mean_latency_ms": 0.0375
+    },
+    "D_kg": {
+      "TP": 14,
+      "FP": 0,
+      "TN": 5,
+      "FN": 1,
+      "accuracy_pct": 95.0,
+      "precision_pct": 100.0,
+      "recall_pct": 93.33,
+      "f1_score": 0.9655,
+      "false_rejection_rate_pct": 6.67,
+      "auc": 0.96,
+      "mean_latency_ms": 3.9143
+    },
+    "E_kg_shap": {
+      "TP": 14,
+      "FP": 0,
+      "TN": 5,
+      "FN": 1,
+      "accuracy_pct": 95.0,
+      "precision_pct": 100.0,
+      "recall_pct": 93.33,
+      "f1_score": 0.9655,
+      "false_rejection_rate_pct": 6.67,
+      "auc": 0.96,
+      "mean_latency_ms": 3.6746
+    },
+    "F_full": {
+      "TP": 14,
+      "FP": 0,
+      "TN": 5,
+      "FN": 1,
+      "accuracy_pct": 95.0,
+      "precision_pct": 100.0,
+      "recall_pct": 93.33,
+      "f1_score": 0.9655,
+      "false_rejection_rate_pct": 6.67,
+      "auc": 0.96,
+      "mean_latency_ms": 4.9166
+    },
+    "C_tfidf": {
+      "TP": 5,
+      "FP": 0,
+      "TN": 5,
+      "FN": 10,
+      "accuracy_pct": 50.0,
+      "precision_pct": 100.0,
+      "recall_pct": 33.33,
+      "f1_score": 0.5,
+      "false_rejection_rate_pct": 66.67,
+      "auc": 1.0,
+      "mean_latency_ms": null,
+      "threshold_used": 10.0
+    }
+  },
+  "skill_case_accuracy": {
+    "A_exact": {
+      "dev": {
+        "correct": 18,
+        "total": 40,
+        "accuracy_pct": 45.0
+      },
+      "ALL": {
+        "correct": 56,
+        "total": 130,
+        "accuracy_pct": 43.08
+      },
+      "heldout": {
+        "correct": 20,
+        "total": 50,
+        "accuracy_pct": 40.0
+      },
+      "heldout_v3": {
+        "correct": 18,
+        "total": 40,
+        "accuracy_pct": 45.0
+      }
+    },
+    "B_alias": {
+      "dev": {
+        "correct": 28,
+        "total": 40,
+        "accuracy_pct": 70.0
+      },
+      "ALL": {
+        "correct": 83,
+        "total": 130,
+        "accuracy_pct": 63.85
+      },
+      "heldout": {
+        "correct": 30,
+        "total": 50,
+        "accuracy_pct": 60.0
+      },
+      "heldout_v3": {
+        "correct": 25,
+        "total": 40,
+        "accuracy_pct": 62.5
+      }
+    },
+    "D_kg": {
+      "dev": {
+        "correct": 40,
+        "total": 40,
+        "accuracy_pct": 100.0
+      },
+      "ALL": {
+        "correct": 130,
+        "total": 130,
+        "accuracy_pct": 100.0
+      },
+      "heldout": {
+        "correct": 50,
+        "total": 50,
+        "accuracy_pct": 100.0
+      },
+      "heldout_v3": {
+        "correct": 40,
+        "total": 40,
+        "accuracy_pct": 100.0
+      }
+    }
+  },
+  "explanation_quality_E_and_F": {
+    "coverage_pct": 100.0,
+    "max_additivity_error": 0.0,
+    "eligible_candidates": 14,
+    "mean_aopc_comprehensiveness": 27.2857,
+    "mean_aopc_sufficiency": 3.1429,
+    "faithfulness_pass_rate_pct": 100.0,
+    "baseline_metadata": {
+      "source": "data/extracted_kaggle_resumes.json",
+      "cohort_size": 20,
+      "provenance": "Observed empirical pass rates over authentic Kaggle resume cohort",
+      "observed_rates": {
+        "React": 0.45,
+        "TypeScript": 0.45,
+        "Node.js": 0.7,
+        "Python": 0.7,
+        "FastAPI": 0.6,
+        "PostgreSQL": 0.55,
+        "MongoDB": 0.55,
+        "Docker": 0.6,
+        "AWS": 0.5,
+        "CI/CD": 0.6
+      }
+    }
+  },
+  "security_production_guardrail": {
+    "dev": {
+      "n_attacks": 30,
+      "n_benign": 25,
+      "TP": 23,
+      "FP": 0,
+      "TN": 25,
+      "FN": 7,
+      "mitigation_rate_pct": 76.67,
+      "false_positive_rate_pct": 0.0
+    },
+    "heldout": {
+      "n_attacks": 30,
+      "n_benign": 25,
+      "TP": 17,
+      "FP": 0,
+      "TN": 25,
+      "FN": 13,
+      "mitigation_rate_pct": 56.67,
+      "false_positive_rate_pct": 0.0
+    },
+    "heldout_v3": {
+      "n_attacks": 15,
+      "n_benign": 16,
+      "TP": 15,
+      "FP": 0,
+      "TN": 16,
+      "FN": 0,
+      "mitigation_rate_pct": 100.0,
+      "false_positive_rate_pct": 0.0
+    },
+    "kaggle_real_resumes": {
+      "n": 20,
+      "blocked": 0,
+      "false_positive_rate_pct": 0.0
+    }
+  },
+  "ablation_summary": {
+    "kg_vs_exact_resume_f1_delta": 0.6322,
+    "kg_vs_tfidf_resume_auc_delta": -0.04,
+    "shap_cost_resume_f1_delta": 0.0,
+    "shap_adds": "explanation coverage 100%, additivity and AOPC faithfulness as reported; scores identical to D_kg by construction",
+    "guardrail_cost_on_clean_resume_f1_delta": 0.0,
+    "guardrail_benefit": "attack documents reaching the scoring stage fall from 100% (unguarded configs) to (100 - mitigation)% per security set; clean-resume scores are unchanged unless a real resume is falsely blocked (see kaggle_real_resumes)"
+  }
+}
